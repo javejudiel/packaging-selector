@@ -1,0 +1,23 @@
+{
+    "name": "javejudiel/packaging-selector",
+    "description": "Packaging Selector",
+    "authors": [
+        {
+            "name": "Jave Judiel",
+            "email": "kulong.javejudiel@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Javejudiel\\PackagingSelector\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Javejudiel\\PackagingSelector\\PackagingSelectorServiceProvider"
+            ]
+        }
+    }
+}
